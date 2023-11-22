@@ -1,0 +1,3 @@
+ elif (task[0] == 'get_wallet_balance'):
+            balance = get_wallet_balance(node_process, session, task[1])
+            queue_results.put((task[1], balance))
